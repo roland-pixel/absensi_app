@@ -22,7 +22,6 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.anonymous.absensi_app",
       "permissions": [
-        "android.permission.NFC",
         "android.permission.NFC"
       ]
     },
@@ -47,23 +46,24 @@
         {
           "nfcPermission": "Aplikasi memerlukan akses NFC untuk pemindaian ID Kartu Absensi."
         }
-      ]
+      ],
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "8c59042a-63da-4ad7-8aa9-171150e0738f"
-      }
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
       "url": "https://u.expo.dev/8c59042a-63da-4ad7-8aa9-171150e0738f"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4593b3f5-b21b-41ea-866f-13be5396bb4e"
+      }
     }
   }
 }
